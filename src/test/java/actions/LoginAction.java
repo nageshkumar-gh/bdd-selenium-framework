@@ -1,6 +1,5 @@
 package actions;
 
-import driver.DriverFactory;
 import pages.LoginPage;
 
 /*
@@ -11,28 +10,28 @@ import pages.LoginPage;
  */
 public class LoginAction {
 
-    private LoginPage loginPage;
+    private final LoginPage loginPage;
 
     public LoginAction() {
         loginPage = new LoginPage();
     }
 
-    public void login(String username, String password) throws InterruptedException {
+    public void login(String username, String password) {
         loginPage.enterUsername(username);
         loginPage.enterPassword(password);
         loginPage.clickLoginButton();
 
     }
-    public String getCurrentUrl(){
-        return DriverFactory.getDriver().getCurrentUrl();
-    }
 
-    public String getInvalidLoginMsg(){
-        return loginPage.getAuthErrorMessage();
+    public boolean getInvalidLoginMsg(String InvalidMessage) {
+        return loginPage.getAuthErrorMessage(InvalidMessage);
     }
-    public String getMissingCredMsg(){
-        return loginPage.getRequiredFieldValidationMessage();
+    public boolean getMissingCredMsg(String MissingMessage) {
+        return loginPage.getRequiredFieldValidationMessage(MissingMessage);
     }
-
+    public boolean verifyLoginPage(String urlPart)
+    {
+        return loginPage.isDisplayed(urlPart);
+    }
 
 }

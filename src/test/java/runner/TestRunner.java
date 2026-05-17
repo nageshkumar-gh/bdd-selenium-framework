@@ -10,9 +10,10 @@ import io.cucumber.testng.CucumberOptions;
  * different working directories or in CI, consider switching to a classpath-based path later.
  */
 @CucumberOptions(
-        features = "src/test/resources/features",
+        features = "classpath:features",
         glue = {"steps", "hooks"},
-        plugin = {"pretty", "summary"}
+        plugin = {"pretty", "summary", "html:target/cucumber-reports/report.html", "json:target/cucumber.json"},
+        tags = "@buzz"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 }

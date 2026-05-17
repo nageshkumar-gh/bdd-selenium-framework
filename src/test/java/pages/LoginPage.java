@@ -20,6 +20,8 @@ public class LoginPage extends BasePage {
 
     private static final By REQUIRED_FIELD_VALIDATION_MESSAGE = By.cssSelector("span.oxd-input-field-error-message");
 
+
+
     public void enterUsername(String username) {type(USERNAME_INPUT, username);}
     public void enterPassword(String password) {
         type(PASSWORD_INPUT, password);
@@ -27,8 +29,11 @@ public class LoginPage extends BasePage {
     public void clickLoginButton() {
         click(LOGIN_BUTTON);
     }
-    public String getAuthErrorMessage() {return getText(AUTH_ERROR_MESSAGE);}
-    public String getRequiredFieldValidationMessage() {
-        return getText(REQUIRED_FIELD_VALIDATION_MESSAGE);
+    public boolean getAuthErrorMessage(String InvalidMessage) {return getText(AUTH_ERROR_MESSAGE,InvalidMessage);}
+    public boolean getRequiredFieldValidationMessage(String  MissingMessage) {
+        return getText(REQUIRED_FIELD_VALIDATION_MESSAGE,MissingMessage);
+    }
+    public boolean isDisplayed(String urlPage) {
+        return waitForUrlContains(urlPage);
     }
 }

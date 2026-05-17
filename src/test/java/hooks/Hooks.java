@@ -1,5 +1,6 @@
 package hooks;
 
+import actions.LoginAction;
 import config.ConfigReader;
 import driver.DriverFactory;
 import io.cucumber.java.After;
@@ -14,13 +15,24 @@ import io.cucumber.java.Before;
  * - navigate to the entry page for the feature under test
  */
 public class Hooks {
-    @Before
-    public void before(){
-        System.out.println("Before Hooks");
-        ConfigReader config = ConfigReader.getInstance();
+
+    ConfigReader config = ConfigReader.getInstance();
+
+    @Before(order = 1)
+    public void launchBrowser() {
+        System.out.println("Launching Browser");
         DriverFactory.initDriver();
-        // Use base.url from config and keep the app-specific path in code for clarity.
-        DriverFactory.getDriver().get(config.getBaseUrl() + "/web/index.php/auth/login");
+    }
+    @Before(order = 2)
+    public void openLoginPage() {
+        System.out.println("Opening Login Page");
+        DriverFactory.getDriver().get(config.getBaseUrl());
+    }
+    @Before(order = 3,value = "not @auth")
+    public void login(){
+        System.out.println("Logging in...");
+        LoginAction loginAction=new LoginAction();
+        loginAction.login("Admin", "admin123");
     }
     @After
     public void after(){
