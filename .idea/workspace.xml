@@ -5,43 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58aca140-75b6-4c03-b3a8-f6ec5079cae1" name="Changes" comment="Add initial implementation of OrangeHRM features&#10;&#10;- Introduced admin, buzz, claim, and PIM modules with corresponding actions and steps.&#10;- Added feature files for each module to define user scenarios.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/actions/AdminAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/actions/BuzzAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/actions/ClaimAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/actions/MenuItemAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/actions/PIMAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/actions/TopbarAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AdminPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BuzzPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ClaimPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MenuItemPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PIMPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TopbarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/AdminStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/BuzzStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ClaimStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/NavigationStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/PIMStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Pim.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/admin.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/buzz.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/claim.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/navigation.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilotDiffState.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/actions/LoginAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actions/LoginAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bases/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bases/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,61 +81,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="3.3321730040026952E-77" />
+      <entry key="S2" value="7.597695525457063E-20" />
+      <entry key="S5" value="2.2504675449633257E-8" />
+      <entry key="S10" value="1.5001558402590178E-4" />
+      <entry key="S30" value="0.05317337074795269" />
+      <entry key="S60" value="0.24534418963462754" />
+      <entry key="M2" value="0.7767966021743653" />
+      <entry key="M5" value="2.54741834553263" />
+      <entry key="M10" value="4.2474410016350275" />
+      <entry key="M15" value="5.371193674786624" />
+      <entry key="M30" value="9.921900778716868" />
+      <entry key="H1" value="28.52958358184815" />
+      <entry key="H2" value="71.12021322409446" />
+      <entry key="H4" value="132.5272260886491" />
+      <entry key="D1" value="380.0871435585464" />
+      <entry key="W1" value="513.4162918708643" />
+    </decayedCancelled>
+    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
       <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000000221985" />
-      <entry key="S30" value="1.0007264978968238" />
-      <entry key="S60" value="1.0643546970875852" />
-      <entry key="M2" value="1.6179407712800336" />
-      <entry key="M5" value="3.4163502812186795" />
-      <entry key="M10" value="4.918791518071748" />
-      <entry key="M15" value="5.923224399450686" />
-      <entry key="M30" value="10.41930056958026" />
-      <entry key="H1" value="29.235954420163633" />
-      <entry key="H2" value="71.99527115261652" />
-      <entry key="H4" value="133.34003621636282" />
-      <entry key="D1" value="380.47467668151086" />
-      <entry key="W1" value="513.491041244841" />
-    </decayedCancelled>
-    <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="8.39098079038289E-224" />
-      <entry key="S30" value="5.416220943762415E-75" />
-      <entry key="S60" value="1.178583716392239E-37" />
-      <entry key="M2" value="7.290808126254458E-19" />
-      <entry key="M5" value="1.7120170038886914E-7" />
-      <entry key="M10" value="0.001277511678597012" />
-      <entry key="M15" value="0.027991974700760567" />
-      <entry key="M30" value="0.782023125804812" />
-      <entry key="H1" value="5.4353828072076915" />
-      <entry key="H2" value="16.441662405763374" />
-      <entry key="H4" value="31.71018088725517" />
-      <entry key="D1" value="86.64853037212376" />
-      <entry key="W1" value="114.97039180133694" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0000001276573878" />
+      <entry key="M10" value="1.0011031480931454" />
+      <entry key="M15" value="1.0253831878244315" />
+      <entry key="M30" value="1.7446906641267899" />
+      <entry key="H1" value="6.3040583477795815" />
+      <entry key="H2" value="17.241824182836925" />
+      <entry key="H4" value="32.51688293333101" />
+      <entry key="D1" value="87.56027436552625" />
+      <entry key="W1" value="115.95365545323597" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.21168632809063181" />
-      <entry key="MS500" value="0.7330583785946045" />
-      <entry key="S2" value="0.9253044280378522" />
-      <entry key="S5" value="0.9694241983502104" />
-      <entry key="S10" value="0.9845934178092974" />
-      <entry key="S30" value="0.9955629201708155" />
-      <entry key="S60" value="1.0617220209364469" />
-      <entry key="M2" value="1.6164478432079963" />
-      <entry key="M5" value="3.4155471285592407" />
-      <entry key="M10" value="4.919563461072225" />
-      <entry key="M15" value="5.95052970999965" />
-      <entry key="M30" value="11.197376205878172" />
-      <entry key="H1" value="34.6607064550309" />
-      <entry key="H2" value="88.42300908221456" />
-      <entry key="H4" value="165.03795417633364" />
-      <entry key="D1" value="467.11835189795727" />
-      <entry key="W1" value="628.4605382835916" />
+      <entry key="MS100" value="1.7649661009296984E-5" />
+      <entry key="MS500" value="0.11203333744617561" />
+      <entry key="S2" value="0.5785445654784171" />
+      <entry key="S5" value="0.8034053864866705" />
+      <entry key="S10" value="0.8964765305527058" />
+      <entry key="S30" value="1.017073830700323" />
+      <entry key="S60" value="1.2266613745902577" />
+      <entry key="M2" value="1.7670006313834168" />
+      <entry key="M5" value="3.543177852983965" />
+      <entry key="M10" value="5.246285114930503" />
+      <entry key="M15" value="6.394738844875155" />
+      <entry key="M30" value="11.662224540522182" />
+      <entry key="H1" value="34.82296403187591" />
+      <entry key="H2" value="88.34813017467489" />
+      <entry key="H4" value="165.0318448440486" />
+      <entry key="D1" value="467.64255504611697" />
+      <entry key="W1" value="629.369050882112" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -342,8 +306,25 @@
       <workItem from="1778982616045" duration="37000" />
       <workItem from="1778982662151" duration="48000" />
       <workItem from="1778982741810" duration="103000" />
-      <workItem from="1778982865947" duration="31757000" />
+      <workItem from="1778982865947" duration="31844000" />
     </task>
+    <task id="LOCAL-00001" summary="Add initial implementation of OrangeHRM features&#10;&#10;- Introduced admin, buzz, claim, and PIM modules with corresponding actions and steps.&#10;- Added feature files for each module to define user scenarios.">
+      <option name="closed" value="true" />
+      <created>1779061274981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779061274981</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add initial implementation of OrangeHRM features&#10;&#10;- Introduced admin, buzz, claim, and PIM modules with corresponding actions and steps.&#10;- Added feature files for each module to define user scenarios.">
+      <option name="closed" value="true" />
+      <created>1779061309241</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779061309241</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
