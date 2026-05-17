@@ -54,4 +54,5 @@ jobs:
           path: |
             target/surefire-reports
             target/cucumber.json
+            target/cucumber-reports
 

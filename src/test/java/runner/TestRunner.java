@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
         features = "classpath:features",
         glue = {"steps", "hooks"},
         plugin = {"pretty", "summary", "html:target/cucumber-reports/report.html", "json:target/cucumber.json"},
-        tags = "@buzz"
+        tags = "@auth"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 }
