@@ -1,12 +1,12 @@
 # BDD Selenium Framework
-![CI](https://github.com/nageshkumar-gh/bdd-selenium-framework/actions/workflows/ci.yml/badge.svg?style=flat-square)
+
+![CI-Build](https://github.com/nageshkumar-gh/bdd-selenium-framework/actions/workflows/ci.yml/badge.svg?style=flat-square)
 
 ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-4.43.0-43B02A?style=flat-square&logo=selenium&logoColor=white)
 ![Cucumber](https://img.shields.io/badge/Cucumber-7.34.3-23D96C?style=flat-square&logo=cucumber&logoColor=white)
 ![TestNG](https://img.shields.io/badge/TestNG-7.x-FF6C37?style=flat-square)
 ![Maven](https://img.shields.io/badge/Maven-3.x-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-Chrome%20%7C%20Firefox-yellow?style=flat-square)
 
