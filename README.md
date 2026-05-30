@@ -27,7 +27,6 @@ A production-ready **BDD (Behaviour-Driven Development) test automation framewor
 - [Test Coverage](#test-coverage)
 - [Reports](#reports)
 - [Design Patterns](#design-patterns)
-- [Contributing](#contributing)
 
 ---
 
@@ -284,13 +283,6 @@ After a test run, Cucumber generates reports in `target/`:
 | JSON Report | `target/cucumber.json` | Machine-readable, CI-integration friendly |
 | Console | stdout | Pretty-printed step-by-step output |
 
-Open the HTML report:
-
-```bash
-open target/cucumber-reports/report.html       # macOS
-xdg-open target/cucumber-reports/report.html  # Linux
-start target/cucumber-reports/report.html      # Windows
-```
 
 ---
 
@@ -305,18 +297,7 @@ start target/cucumber-reports/report.html      # Windows
 | **Hooks** | `Hooks.java` | Centralised setup/teardown — no repeated browser init boilerplate in step classes |
 | **Abstract Base Class** | `BasePage` | Common Selenium helpers (`type`, `click`, `waitForVisibility`) shared by all page objects |
 
----
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/my-new-module`
-3. Add your feature file under `src/test/resources/features/`
-4. Add the corresponding page, action, and step classes
-5. Ensure all existing tests still pass: `mvn test`
-6. Open a pull request
 
 ---
 
-> **Application Under Test:** [OrangeHRM Open Source Demo](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)  
-> Credentials: `Admin` / `admin123`
+> **Application Under Test:** [OrangeHRM Open Source Demo](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)
