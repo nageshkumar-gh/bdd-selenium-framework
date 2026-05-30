@@ -8,7 +8,7 @@
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-Chrome%20%7C%20Firefox-yellow?style=flat-square)
-
+![CI](https://github.com/nageshkumar-gh/bdd-selenium-framework/actions/workflows/ci.yml/badge.svg?style=flat-square)
 A production-ready **BDD (Behaviour-Driven Development) test automation framework** built with Selenium WebDriver, Cucumber, and TestNG, targeting the [OrangeHRM](https://opensource-demo.orangehrmlive.com) open-source HR management demo application.
 
 ---
