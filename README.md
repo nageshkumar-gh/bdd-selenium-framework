@@ -1,6 +1,7 @@
 # BDD Selenium Framework
+![CI](https://github.com/nageshkumar-gh/bdd-selenium-framework/actions/workflows/ci.yml/badge.svg?style=flat-square)
 
-![Java](https://img.shields.io/badge/Java-24-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-4.43.0-43B02A?style=flat-square&logo=selenium&logoColor=white)
 ![Cucumber](https://img.shields.io/badge/Cucumber-7.34.3-23D96C?style=flat-square&logo=cucumber&logoColor=white)
 ![TestNG](https://img.shields.io/badge/TestNG-7.x-FF6C37?style=flat-square)
@@ -8,7 +9,7 @@
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-Chrome%20%7C%20Firefox-yellow?style=flat-square)
-![CI](https://github.com/nageshkumar-gh/bdd-selenium-framework/actions/workflows/ci.yml/badge.svg?style=flat-square)
+
 A production-ready **BDD (Behaviour-Driven Development) test automation framework** built with Selenium WebDriver, Cucumber, and TestNG, targeting the [OrangeHRM](https://opensource-demo.orangehrmlive.com) open-source HR management demo application.
 
 ---
@@ -58,14 +59,14 @@ The framework is designed for:
 
 ## Tech Stack
 
-| Tool | Version | Purpose |
-|------|---------|---------|
-| Java | 24 | Primary language |
-| Selenium WebDriver | 4.43.0 | Browser automation |
-| Cucumber Java | 7.34.3 | BDD framework / Gherkin parsing |
-| Cucumber TestNG | 7.34.3 | TestNG integration for Cucumber |
-| TestNG | 7.x | Test execution engine |
-| Maven | 3.x | Build & dependency management |
+| Tool | Version | Purpose                           |
+|------|---------|-----------------------------------|
+| Java | 24 | Primary language                  |
+| Selenium WebDriver | 4.43.0 | Browser automation                |
+| Cucumber Java | 7.34.3 | BDD framework   |
+| Cucumber TestNG | 7.34.3 | TestNG integration for Cucumber   |
+| TestNG | 7.x | Test execution engine             |
+| Maven | 3.x | Build & dependency management     |
 | Maven Surefire Plugin | 3.5.5 | Runs TestNG suite via `testng.xml` |
 
 ---
